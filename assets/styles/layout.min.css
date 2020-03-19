@@ -1003,3 +1003,47 @@ li.droplist:hover {
   display: inline-block;
   line-height: 1em;
 }
+
+/* #Pagination & Arrow
+================================================== */
+
+.item {
+  width: auto;
+  height: 50px;
+  margin: 10px;
+  position: relative;
+  float: right;
+}
+
+button {
+  font-size: 1.9em;
+  border: 1px solid white;
+  background: white;
+  width: 100%;
+  padding: 15px;
+  border-radius: 3px;
+  color: black;
+  transition: background 0.5s ease;
+}
+
+button:hover {
+  background: black;
+  color: white;
+  font-weight: normal;
+}
+
+i.fa.fa-long-arrow-right.arrow1 {
+  animation: slide1 1s ease-in-out infinite;
+  margin-left: 9px;
+}
+
+@keyframes slide1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(10px, 0);
+  }
+}
