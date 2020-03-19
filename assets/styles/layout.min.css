@@ -957,7 +957,7 @@ li.droplist:hover {
   transition: all 200ms linear;
 }
 .nav-item:hover .nav-link {
-  color: #8167a9 !important;
+  color: #777 !important;
 }
 .nav-item.active .nav-link {
   color: #777 !important;
@@ -974,7 +974,7 @@ li.droplist:hover {
   width: 100%;
   height: 2px;
   content: "";
-  background-color: #8167a9;
+  background-color: #777;
   opacity: 0;
   transition: all 200ms linear;
 }
