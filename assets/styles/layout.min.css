@@ -1116,3 +1116,10 @@ h1.h1-contact {
     opacity: 0;
   }
 }
+
+/* #Footer
+================================================== */
+
+.row.footer {
+  text-align: center;
+}
