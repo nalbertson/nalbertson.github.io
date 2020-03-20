@@ -1013,7 +1013,7 @@ li.droplist:hover {
   float: right;
 }
 
-button {
+button.arrow {
   font-size: 1.9em;
   border: 1px solid white;
   background: white;
@@ -1024,7 +1024,7 @@ button {
   transition: background 0.5s ease;
 }
 
-button:hover {
+button.arrow:hover {
   background: black;
   color: white;
   font-weight: normal;
