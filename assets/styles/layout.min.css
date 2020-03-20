@@ -1068,7 +1068,7 @@ h1.h1-contact {
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
 	text-transform: uppercase;
-	font-size: 120px;
+	font-size: 14vw;
 	line-height: 0.8;
 	margin: 10px 0;
 }
