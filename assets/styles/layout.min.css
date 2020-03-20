@@ -1059,11 +1059,11 @@ i.fa.fa-long-arrow-right.arrow1 {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	height: 80vh;
 	letter-spacing: 1px;
 }
 
-h1 {
+h1-contact {
 	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
 	background-size: cover;
 	color: transparent;
