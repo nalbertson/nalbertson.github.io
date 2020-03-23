@@ -1,6 +1,3 @@
-/* #Primary style
-================================================== */
-
 @charset "UTF-8";
 @font-face {
   font-family: aktiv-grotesk;
@@ -57,6 +54,10 @@
   font-weight: 700;
   font-style: italic;
 }
+
+/* #Primary style
+================================================== */
+
 .header .nav-item-child,
 .link,
 a,
