@@ -1120,7 +1120,20 @@ h1.h1-contact {
 /* #Footer
 ================================================== */
 
+footer.footer {
+  background-color: black;
+  color: white;
+}
+
 .row.footer {
   position: fixed;
   bottom: 0;
+}
+
+div#copyright-info {
+  color: black !important;
+}
+
+span.footer {
+  cursor: pointer;
 }
