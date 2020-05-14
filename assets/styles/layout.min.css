@@ -503,8 +503,8 @@ li.droplist:hover {
   display: block;
   float: left;
   vertical-align: top;
-  padding: 0 2px;
-  margin-bottom: 4px;
+  padding: 0 4px;
+  margin-bottom: 8px;
 }
 .masonry-grid .masonry-grid-item.col-12 {
   width: 100%;
