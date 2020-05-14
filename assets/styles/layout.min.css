@@ -994,8 +994,12 @@ li.droplist:hover {
 
 .ml13 {
   font-size: 2vw;
-  letter-spacing: 0.1em;
-  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: calc(1907px)) and (min-width: 0) and (orientation: portrait) {
+  .ml13 {
+    font-size: calc(1.2vh + 1rem);
+  }
 }
 
 .ml13 .letter {
@@ -1051,26 +1055,26 @@ i.fa.fa-long-arrow-right.arrow1 {
 ================================================== */
 
 .title {
-	text-align: center;
-	color: #FFF;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  letter-spacing: 1px;
 }
 
 h1.h1-contact {
-	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	text-transform: uppercase;
-	font-size: 14vw;
-	line-height: 0.8;
-	margin: 10px 0;
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 14vw;
+  line-height: 0.8;
+  margin: 10px 0;
 }
 
 #arrow a {
