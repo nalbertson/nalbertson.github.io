@@ -1137,3 +1137,7 @@ div#copyright-info {
 span.footer {
   cursor: pointer;
 }
+
+p.footer {
+  font-size: x-small;
+}
