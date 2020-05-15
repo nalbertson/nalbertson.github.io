@@ -1155,3 +1155,11 @@ span.footer {
 p.footer {
   font-size: x-small;
 }
+
+/* @media segments */
+
+@media (max-width: 600px) {
+  .offset-1 {
+    margin-left: 0 !important;
+}
+}
