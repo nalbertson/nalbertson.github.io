@@ -1161,5 +1161,8 @@ p.footer {
 @media (max-width: 600px) {
   .offset-1 {
     margin-left: 0 !important;
-}
+  }
+  a.arrow {
+    font-size: 1em !important;
+  }
 }
