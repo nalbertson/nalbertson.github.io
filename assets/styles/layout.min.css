@@ -1010,6 +1010,16 @@ li.droplist:hover {
 /* #Pagination & Arrow
 ================================================== */
 
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1200px;
+  }
+}
+
 .item {
   width: auto;
   height: 50px;
